@@ -24,9 +24,9 @@ from student s
 where s.student_name like "h%"
 ;
 -- Hiển thị các thông tin lớp học có thời gian bắt đầu vào tháng 12.
-select c.class_id as ID , c.stardate as StartDate 
+select *
 from class c 
-where s.student_name like ""
+where c.stardate like "%-12-%"
 ;
 -- Hiển thị tất cả các thông tin môn học có credit trong khoảng từ 3-5.
 select sb.sub_name , sb.credit
