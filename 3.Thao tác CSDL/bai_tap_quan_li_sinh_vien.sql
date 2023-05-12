@@ -38,7 +38,6 @@ update student s
 set s.class_id = 2
 where s.student_name = "Hung"
 ;
-
 select *
 from student
 ; 
