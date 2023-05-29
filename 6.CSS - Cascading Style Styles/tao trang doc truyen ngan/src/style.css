@@ -1,0 +1,23 @@
+
+body{
+    background: url("Erling-Haaland-Man-City.jpg") no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.list{
+    text-align: center;
+
+}
+.list a{
+    color: white;
+    text-decoration: none;
+}
+.list a:hover{
+    text-decoration: underline;
+}
